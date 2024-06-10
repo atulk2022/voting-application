@@ -1,0 +1,40 @@
+oting application
+what??
+where user can give votes to given set of candidates
+models 
+routes 
+
+
+what are their end points 
+voting app functionality 
+user sign in /sign up 
+See the List of candidates
+Vote one of the candidate
+There is a routes which shows the list of candidates and Their live vote count sorted by their vote count
+your data must be unique Addhaar card ?? identity proof is must
+There must 1 admin which stores data ,maintain data they can not be vote,their is only access to admin 
+user can change their password
+
+Routes
+User Authentication
+
+sign up(Post method)-create a user account 
+log in(Post method)-log in into an existing account(Addhaar card+password);
+
+Voting
+/candidates:Get Method-get the list of candidates
+/vote/candidates/Post-vote for a specific candidate
+
+VoteCounts
+/vote/count:getMethod-Get the list of candidates Sorted by their vote VoteCounts
+
+User profile
+/profile:Get-Get the user profile information
+/profile/password:Put:update the password
+
+
+Admin candidate management
+ /candidates/Post:Create a new profile 
+ /candidates/Put/update the profile of candidate 
+ /candidate/candidateId:delete/delete the candidate from the list
+ it can access only Admin
