@@ -7,7 +7,7 @@
     {
         "name": "Rahul Gandhi",
         "party": "INC",
-        "age": 51
+        "age": 51 
     },
     {
         "name": "Arvind Kejriwal",
