@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router(); 
 const User = require('../models/user');
 const {jwtAuthMiddleware, generateToken} = require('../jwt');
-const Candidate = require('../models/candidate');
+const Candidate = require('../models/candidate'); 
 
 
 const checkAdminRole = async (userID) => {
