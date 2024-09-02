@@ -11,7 +11,7 @@ const checkAdminRole = async (userID) => {
         if(user.role === 'admin'){
             return true;
         }
-   }catch(err){
+   }catch(err){ 
         return false;
    }
 }
